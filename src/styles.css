@@ -1,0 +1,49 @@
+.App {
+  /* font-family: sans-serif; */
+  font-family: "Nerko One", cursive;
+
+  text-align: center;
+}
+
+.Login {
+  height: 300px;
+  width: 300px;
+  background: #f3f3f3;
+  border: 1px solid #a7a7a759;
+  margin: 20px auto;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Login input {
+  width: 80%;
+  margin: 10%;
+  border: none;
+  border-bottom: 3px solid grey;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: "East Sea Dokdo", cursive;
+}
+.Login input:focus {
+  border-bottom: 3px solid blue;
+}
+.Login button {
+  background: #c0caca;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 1s;
+  outline: none;
+  font-family: "East Sea Dokdo", cursive;
+}
+
+.Login button:hover {
+  background: #abb2b4;
+  font-size: 20px;
+}
